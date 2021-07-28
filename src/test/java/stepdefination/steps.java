@@ -70,6 +70,7 @@ public class steps {
 	    @And("^click on contnet create$")
 	    public void click_on_contnet_create() throws Throwable 
 	    {
+	    	// Content create
 	        Hooks.driver.findElement(Content.content).click();
 	        Thread.sleep(3000);
 	        Hooks.driver.findElement(Content.Create).click();
