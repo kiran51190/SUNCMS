@@ -95,9 +95,12 @@ public interface Sun {
 		//By.xpath("//*[text() = 'Save and Proceed
 		//public By saveandproceedsubtitles=By.xpath("//button[contains(.,'Save and Proceed')]");
 		public By ReleaseDate=By.id("ReleasedDate");
-		public By imagetype=By.id("_uimageType1");
+		//public By imagetype=By.id("_uimageType1");
+		//xpath=//div[@id='_uimageOptions0']/div/div/select
 		public By uploadimage=By.xpath("//*[@id=\"_cimageOptions0\"]/div[3]/div/div/div");
 		public By saveandexit=By.cssSelector("button[class='btn btn-primary _cContentImageExitBtn']");
+		
+		
 	
 		
 		
